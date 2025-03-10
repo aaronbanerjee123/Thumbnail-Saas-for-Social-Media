@@ -20,7 +20,7 @@ export default async function Layout({
           <Signout />
         </div>
       </nav>
-      <div className="flex h-screen justify-center">{children}</div>
+      <div className="flex justify-center">{children}</div>
     </div>
   );
 }
